@@ -1,80 +1,75 @@
-🧮 LaTeX Image Converter (Frontend)
+# 🧮 LaTeX Image Converter (Frontend)
 
-This project provides the frontend interface for a LaTeX image converter web app.
-It allows users to upload an image containing mathematical formulas, preview it, and send it to the backend for LaTeX conversion.
+This project provides the **frontend interface** for a LaTeX image converter web app.  
+It allows users to **upload an image containing mathematical formulas**, preview it, and send it to the backend for LaTeX conversion.
 
-🖥️ Features
+---
 
-Simple, minimal front-end design
+## ✨ Features
 
-Upload and preview image instantly
+- 🖼️ Upload and preview images instantly  
+- 🎨 Simple, minimal, dark-themed interface  
+- ⚙️ Ready to integrate with backend API  
+- 💬 User alerts for clear interaction feedback  
 
-Ready to integrate with backend API
+---
 
-Styled with clean dark theme using CSS
+## 📁 Project Structure
 
-Alert prompts to guide user actions
-
-🗂️ Project Structure
 project/
 │
-├── index.html       # Main HTML structure
-├── style.css        # Styling for the web interface
-└── script.js        # Handles image selection and preview logic
+├── index.html # Main HTML structure
+├── style.css # Styling for the web interface
+└── script.js # Handles image selection and preview logic
 
-⚙️ How It Works
+---
 
-Click "Choose Image" → select an image from your device.
+## ⚙️ How It Works
 
-The image will appear in the preview area.
+1. Click **"Choose Image"** to select an image from your device.  
+2. The image preview will appear on the screen.  
+3. Click **"Convert"** to prepare the image for backend processing.  
+4. An alert confirms that the image is ready to send to the backend.
 
-Click "Convert" to prepare the image for backend processing.
+> Once the backend is completed, this alert will be replaced with an actual API call.
 
-The system shows an alert confirming readiness to send.
+---
 
-Once backend integration is complete, the selected image will be sent to the backend for LaTeX conversion.
+## 🧩 Tech Stack
 
-🧩 Tech Stack
+- **HTML5** → Structure  
+- **CSS3** → Styling and layout  
+- **JavaScript (Vanilla)** → Image selection and preview logic  
+- *(Backend: Coming soon by [@adish_ak07_madtonystark_23863](https://github.com/adish_ak07_madtonystark_23863))*
 
-HTML5 — Structure
+---
 
-CSS3 — Styling and layout
+## 🎨 Frontend Preview
 
-JavaScript (Vanilla) — Image handling logic
+The page features:
+- Centered title and instructions  
+- Smooth hover animations on buttons  
+- A preview box for selected images  
+- Consistent dark theme with clean design  
 
-(Backend: To be added by @adish_ak07_madtonystark_23863
-)
+---
 
-🎨 Frontend Preview
+## 🚀 Setup Instructions
 
-Dark-themed interface with:
-
-Centered title and instructions
-
-Smooth hover animations on buttons
-
-Neat preview box for selected image
-
-🚀 Setup Instructions
-
-Clone this repository:
-
-git clone https://github.com/<your-username>/<your-repo-name>.git
-
-
-Navigate into the folder:
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/<your-username>/<your-repo-name>.git
+Navigate into the folder
 
 cd <your-repo-name>
 
 
-Open index.html in any browser.
+Open index.html in any browser
 
-That’s it! 🎉 The frontend runs directly in the browser — no extra dependencies required.
+No installations or dependencies are required — this is a pure frontend project.
 
-💬 Notes
+🧠 Contributors
 
-Frontend completed by @abhishekupai_34351
+Frontend: @abhishekupai_34351
 
-Backend integration in progress by @adish_ak07_madtonystark_23863
-
-Alert messages will be updated after backend completion for a smoother user experience
+Backend (in progress): @adish_ak07_madtonystark_23863 , @ganesh s @ abhishekupai_34351
