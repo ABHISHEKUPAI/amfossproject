@@ -13,17 +13,6 @@ It allows users to **upload an image containing mathematical formulas**, preview
 - 💬 User alerts for clear interaction feedback  
 
 ---
-
-## 📁 Project Structure
-
-project/
-│
-├── index.html # Main HTML structure
-├── style.css # Styling for the web interface
-└── script.js # Handles image selection and preview logic
-
----
-
 ## ⚙️ How It Works
 
 1. Click **"Choose Image"** to select an image from your device.  
@@ -40,7 +29,7 @@ project/
 - **HTML5** → Structure  
 - **CSS3** → Styling and layout  
 - **JavaScript (Vanilla)** → Image selection and preview logic  
-- *(Backend: Coming soon by [@adish_ak07_madtonystark_23863](https://github.com/adish_ak07_madtonystark_23863))*
+- *(Backend: Coming soon by @adish_ak07_madtonystark_23863 , @ganesh s @ abhishekupai_34351
 
 ---
 
