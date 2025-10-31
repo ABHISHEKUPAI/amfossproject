@@ -26,25 +26,6 @@ Built with **Flask**, **JavaScript**, and **Pix2Tex**, it helps students, resear
 
 ---
 
-## 📂 Project Structure
-texformath/
-│
-├── static/
-│ ├── style.css # Styling for the front-end
-│ └── script.js # Handles image upload and API calls
-│
-├── templates/
-│ └── index.html # Main HTML file served by Flask
-│
-├── app.py # Flask backend (server + OCR)
-│
-├── requirements.txt # Dependencies
-│
-└── README.md # Project documentation
-
-
----
-
 ## ⚙️ Installation and Setup
 
 Follow these steps to set up the project locally 👇  
