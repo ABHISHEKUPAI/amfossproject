@@ -33,10 +33,11 @@ convertBtn.addEventListener('click', () => {
     const formData = new FormData();
     formData.append('image', selectedFile);
 
-    fetch('/', {
-        method: 'POST',
-        body: formData
-    })
+    fetch('http://127.0.0.1:5000/convert', {
+    method: 'POST',
+    body: formData
+})
+
     .then(response => response.text())
     .then(text => {
         previewArea.innerHTML = "Converted LaTeX: " + text;
